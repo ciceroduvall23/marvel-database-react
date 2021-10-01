@@ -1,0 +1,50 @@
+.loader-wrapper{
+  background-image: url("../img/vingadores-background.jpg");
+  height: 60em;
+  width: 100%;
+  background-position: 6% 2px;
+  font-family: 'Roboto', sans-serif;
+  color: var(--mainWhite);
+  background-size: 2700px;
+  background-repeat: no-repeat;
+  background-color: #00000087;
+  z-index: 2;
+  }
+
+  .gradient-loader
+{
+
+  background: linear-gradient( 
+    91deg, rgba(0,0,0,1) 17%, rgba(0,0,0,1) 36%, rgb(0 0 0 / 95%) 49%, rgb(0 0 0 / 65%) 60%);
+        height: 62em;
+        width: 130%;
+        z-index: 2;
+        margin-top: -30px;
+
+}
+
+.circle-loader
+{
+  border-radius:100%;
+    border:10px solid red;
+    width:100px;
+    height:100px;
+    background-color:purple;
+ 
+}
+
+.logo-loader
+{
+  width: 80%;
+  margin: 0;
+  position: absolute;
+  top: 5%;
+  left: -13%;
+  margin-right: -50%;
+  z-index: 4;
+ 
+
+
+}
+
+  
