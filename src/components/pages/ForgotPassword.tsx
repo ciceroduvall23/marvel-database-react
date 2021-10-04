@@ -1,5 +1,6 @@
 import React, { FC, useState, FormEvent, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 import Input from '../UI/Input';
 import Button from '../UI/Button';
@@ -39,8 +40,8 @@ const ForgotPassword: FC = () => {
 
   return(
     <section className="senha">
-      <div className="container">
-        <h2 className="has-text-centered is-size-2 mb-3">Reset password</h2>
+      <div className="container-singIn">
+        <h2 className="has-text-centered is-size-2 mb-3">Redefinir senha</h2>
         <form className="form" onSubmit={submitHandler}>
           {error && <Message type="danger" msg={error} />}
           {success && <Message type="success" msg={success} />}
@@ -49,10 +50,11 @@ const ForgotPassword: FC = () => {
             name="email"
             value={email}
             onChange={(e) => setEmail(e.currentTarget.value)}
-            placeholder="Email address"
-            label="Email address"
+            placeholder="Email"
+            label="Por favor digite o endereço de e-mail.Enviaremos um link para definir uma nova senha."
           />
-          <Button text={loading ? "Loading..." : "Send password reset email"} className="is-primary is-fullwidth mt-5" disabled={loading} />
+          <Button text={loading ? "Loading..." : "Enviar e-mail"} className="re"   disabled={loading} />
+          <p>Lembra a senha ? faça <Link  className="text-link" to="/signin">login</Link></p>
         </form>
       </div>
     </section>

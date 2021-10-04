@@ -1,19 +1,17 @@
 import React, { Component } from "react";
 import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardImage, MDBBtn } from 'mdb-react-ui-kit';
 import Slider from "react-slick";
-import Img1 from '../img/Homem de ferro.jpg';
-import Img2 from '../img/Homem de ferro2.jpg';
-import Img3 from '../img/thor.jpg';
-import Img4 from '../img/capitao america.jpg';
-import Img5 from '../img/capita marvel.jpg';
+import Img1 from '../img/thor vikings.jpg';
+import Img2 from '../img/surfista prateado.jpg';
+import Img3 from '../img/wolverine2.jpg';
+
 import './style.css'
 
 
-import MovieOne from './moviesModal/movie1'
-import MovieTwo from './moviesModal/movie2'
-import MovieThree from './moviesModal/movie3'
-import MovieFour from './moviesModal/movie4'
-import MovieFive from './moviesModal/movie5'
+import One from './HQsModal/modal.1'
+import Two from './HQsModal/modal.2'
+import Three from './HQsModal/modal.3'
+
 
 
 export default class Responsive extends Component {
@@ -56,7 +54,7 @@ export default class Responsive extends Component {
       <div className="container-movie">
        
         <Slider {...settings}>
-        <div className="container-movie2">
+        <div >
   <MDBCard  className="Card-Movies" >
     <img className="CardTwo" src={Img1}  alt="Logo"   />
       <MDBCardBody className="Card-body">
@@ -66,7 +64,7 @@ export default class Responsive extends Component {
         </MDBCardText>
     
         <div>
-        <MovieOne />
+        <One />
         </div>
       </MDBCardBody>
     </MDBCard>
@@ -82,7 +80,7 @@ export default class Responsive extends Component {
         </MDBCardText>
     
         <div>
-        <MovieTwo />
+        <Two />
         </div>
       </MDBCardBody>
     </MDBCard>
@@ -98,45 +96,11 @@ export default class Responsive extends Component {
         </MDBCardText>
     
         <div>
-        <MovieThree />
+        <Three />
         </div>
       </MDBCardBody>
     </MDBCard>
           </div>
-
-          <div>
-  <MDBCard  className="Card-Movies" >
-    <img className="CardTwo" src={Img4}  alt="Logo"   />
-      <MDBCardBody className="Card-body">
-        <MDBCardTitle>Card title</MDBCardTitle>
-        <MDBCardText>
-          Some quick example text to build on the card title and make up the bulk of the card's content.
-        </MDBCardText>
-    
-        <div>
-        <MovieFour />
-        </div>
-      </MDBCardBody>
-    </MDBCard>
-          </div>
-
-          <div>
-  <MDBCard  className="Card-Movies" >
-    <img className="CardTwo" src={Img5}  alt="Logo"   />
-      <MDBCardBody className="Card-body">
-        <MDBCardTitle>Card title</MDBCardTitle>
-        <MDBCardText>
-          Some quick example text to build on the card title and make up the bulk of the card's content.
-        </MDBCardText>
-    
-        <div>
-        <MovieFive />
-        </div>
-      </MDBCardBody>
-    </MDBCard>
-          </div>
-
-
 
         </Slider>
       </div>

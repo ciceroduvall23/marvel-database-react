@@ -1,6 +1,6 @@
 section
 {
- 
+
    width: 100%;
 }
 .logo-Home
@@ -13,21 +13,7 @@ section
     margin-right: -50%;
 }
 
-.is-size-1
-{
 
-    width: auto;
-    z-index: 2;
-    position: relative;
-    left: 80%;
-    top: -281px;
-    font-family: -webkit-body;
-    padding: 10px 30px;
-    border-bottom-left-radius: 0;
-    background-color: var(--feedback-secondary-color);
-    color: #fff;
-    border: #00ffff00;
-}
 .none
 { 
     display: none;
@@ -96,21 +82,11 @@ section
 }
 .text-link:hover
 {
-    color: #fd0200;
-}
-.is-primary
-{
-    
-    background-color: #fd0200;
+    color: #d32323;
 }
 
-Button .re
-{ 
-    width: 240px;
-    margin-top: 20px;
-    background-color: #fd0200;
 
-}
+
 .forgot-password
 {
     color: #ffffff;
@@ -124,12 +100,10 @@ Button .re
     color: #ffffff;
     text-decoration-line: underline;
 }
-
-
-.CardTwo
+.CardImg
 {
-
-    border-radius: 25px; 
+    width: 30%;
+    width: 30%;
 }
 .card-person
 {
@@ -139,7 +113,7 @@ Button .re
     top: 13px; 
     border-radius: 10%;
 }
-.grid
+.Card-Movies
 {
 width:22em;
 justify-content: center;
@@ -150,30 +124,19 @@ margin-right: -50%;
 z-index: 4;
 margin-top: 130px;
 border-radius: 40px 40px 0px 0px;
-background: #16161600;
-
 
 }
 .container-slide
 {
-    background-color: #80121a;
-    width: 100%;
-    border-style: hidden;
-    border-radius: 0px 0px 20px 20px;
-    position: relative;
-    z-index: 2;
-}
-.container-movie
-{
-
     background-color: #323232a1;
     width: 100%;
     border: 8px;
     border-style: groove;
     border-radius: 24px;
     position: relative;
-    z-index: 2; 
+    z-index: 2;
 }
+
 .title-h1
 {
     color: #fff;
@@ -242,8 +205,9 @@ background: #16161600;
     font-size: 21px;
     top: 14px;
     background: rgba(0, 0, 0, 0)
-
 }
+
+
 .menu-Navbar
 {
     margin-top: -981px;

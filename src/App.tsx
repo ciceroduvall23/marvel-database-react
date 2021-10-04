@@ -51,7 +51,7 @@ const App: FC = () => {
         <PublicRoute path="/" component={Homepage} exact />
         <PublicRoute path="/signup" component={SignUp} exact />
         <PublicRoute path="/signin" component={SignIn} exact />
-        <PublicRoute path="/forgot-password" component={ForgotPassword} exact />
+        <PublicRoute path="/forgotpassword" component={ForgotPassword} exact />
         <PrivateRoute path="/dashboard" component={Dashboard} exact />
       </Switch>
     </BrowserRouter>

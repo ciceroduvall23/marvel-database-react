@@ -5,7 +5,9 @@ import { useSelector, useDispatch } from 'react-redux';
 import { signout } from '../../store/actions/authActions';
 
 import Card from './Card'
-import Carousel  from '../movies/cardMovies';
+import CardMovies from '../movies/cardMovies'
+import HQs from '../HQs/card.HQs'
+
 import signin  from './SignIn';
 import Home  from './Homepage';
 import Loader from '../UI/Loader';
@@ -27,9 +29,10 @@ const AppRouter: FC = () => {
     <Router>
       <div className="navbar-container">
       <img className="logo-header" src={Logo}  alt="Logo" />
-        <Link to="/Card/" className="button-navbar">Personagens</Link>
-        <Link to="/Carousel/" className="button-navbar">Filmes</Link>
-        <Link to="/Carousel/" className="button-navbar">HQs</Link>
+      <Link to="/" className="button-navbar">Inicio</Link>
+      <Link to="/Card/" className="button-navbar">Personagens</Link>
+        <Link to="/CardMovies/" className="button-navbar">Filmes</Link>
+        <Link to="/HQs/" className="button-navbar">HQs</Link>
       
           
       
@@ -46,14 +49,15 @@ const AppRouter: FC = () => {
        </Link>
 
         <Route path="/Card/" exact component={Card} />
-        <Route path="/Carousel/" component={Carousel} />
+        <Route path="/CardMovies/" component={CardMovies} />
+        <Route path="/HQs/" component={HQs} />
         <Route path="/signin/" component={signin} />
      
      
 
      
       </div>
-      <div>
+     <div>
         <h1 className="title-h1">Trailes e extras</h1>
       <h2 className="title-dashboard">Descubra o novo e totalmente diferente Marvel Unlimited</h2>
       <button className="button-dashboard">Saiba Mais</button>

@@ -23,28 +23,29 @@
 
 }
 
-.circle-loader
-{
-  border-radius:100%;
-    border:10px solid red;
-    width:100px;
-    height:100px;
-    background-color:purple;
- 
-}
 
-.logo-loader
+.loader-circle
 {
-  width: 80%;
   margin: 0;
   position: absolute;
-  top: 5%;
-  left: -13%;
+  top: 40%;
+  left: 40%;
+  justify-content: center;
+  z-index: 3;
+  color: #ffff;
+
+
+}
+.logo-loader
+{
+  width: 20%;
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  right: 115%;
   margin-right: -50%;
   z-index: 4;
  
-
-
 }
 
   

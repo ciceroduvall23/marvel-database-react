@@ -16,8 +16,8 @@ export const list = [
 
 
   {
-    prop: "spin",
-    name: "Spin"
+    prop: "spinningBubbles",
+    name: "Um Momento..."
   },
  
 ];

@@ -10,7 +10,7 @@ import { RootState } from '../../store';
 
 import Logo from '../img/logo-marvel.png';
 import Signup  from './SignUp';
-import forgotpassword  from './ForgotPassword';
+import ForgotPassword  from './ForgotPassword';
 
 
 const SignIn: FC = () => {
