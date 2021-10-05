@@ -53,16 +53,17 @@ export default class Responsive extends Component {
       ]
     };
     return (
-      <div className="container-movie">
+      <div className="container-slide">
        
         <Slider {...settings}>
-        <div className="container-movie2">
+        <div >
   <MDBCard  className="Card-Movies" >
     <img className="CardTwo" src={Img1}  alt="Logo"   />
       <MDBCardBody className="Card-body">
-        <MDBCardTitle>Card title</MDBCardTitle>
+        <MDBCardTitle>Homem de ferro</MDBCardTitle>
         <MDBCardText>
-          Some quick example text to build on the card title and make up the bulk of the card's content.
+        Homem de Ferro é um personagem fictício dos quadrinhos publicados pela Marvel Comics.
+         Sua identidade verdadeira é a do empresário e bilionário, Tony Stark, que usa armaduras de alta tecnologia no combate ao crime.
         </MDBCardText>
     
         <div>
@@ -76,9 +77,10 @@ export default class Responsive extends Component {
   <MDBCard  className="Card-Movies" >
     <img className="CardTwo" src={Img2}  alt="Logo"   />
       <MDBCardBody className="Card-body">
-        <MDBCardTitle>Card title</MDBCardTitle>
+        <MDBCardTitle>Homem de ferro 2 </MDBCardTitle>
         <MDBCardText>
-          Some quick example text to build on the card title and make up the bulk of the card's content.
+        Em um mundo ciente da existência do Homem de Ferro, o inventor bilionário Tony Stark sofre
+         pressão de todos os lados para compartilhar sua tecnologia com as forças armadas.
         </MDBCardText>
     
         <div>
@@ -92,9 +94,9 @@ export default class Responsive extends Component {
   <MDBCard  className="Card-Movies" >
     <img className="CardTwo" src={Img3}  alt="Logo"   />
       <MDBCardBody className="Card-body">
-        <MDBCardTitle>Card title</MDBCardTitle>
+        <MDBCardTitle>Thor</MDBCardTitle>
         <MDBCardText>
-          Some quick example text to build on the card title and make up the bulk of the card's content.
+        Como filho de Odin, rei dos deuses nórdicos, Thor logo herdará o trono de Asgard de seu idoso pai.
         </MDBCardText>
     
         <div>
@@ -108,9 +110,9 @@ export default class Responsive extends Component {
   <MDBCard  className="Card-Movies" >
     <img className="CardTwo" src={Img4}  alt="Logo"   />
       <MDBCardBody className="Card-body">
-        <MDBCardTitle>Card title</MDBCardTitle>
+        <MDBCardTitle>Capitão America</MDBCardTitle>
         <MDBCardText>
-          Some quick example text to build on the card title and make up the bulk of the card's content.
+        Steve Rogers é um jovem que participa de experiências visando a criação do supersoldado americano.
         </MDBCardText>
     
         <div>

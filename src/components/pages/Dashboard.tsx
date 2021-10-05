@@ -25,9 +25,11 @@ const Dashboard: FC = () => {
       {needVerification && <Message type="success" msg="
             por favor verifique seu endereço de email." />}
       </div>
-        <h1 className="is-size-1">Olá, {user?.firstName}</h1>
+        <h1 className="hellow">Olá, {user?.firstName}</h1>
     </section>
   );
 }
 
 export default Dashboard;
+
+/* className="is-size-1">*/

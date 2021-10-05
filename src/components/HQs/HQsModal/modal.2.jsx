@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./styles.css";
 
 import Modal from "react-modal";
-import Img from'../../img/Homem de ferro2.jpg'
+import Img from'../../img/surfista prateado.jpg'
 import Close from'../../img/close.svg'
 
 Modal.setAppElement("#root");
@@ -27,7 +27,7 @@ export default function App() {
         closeTimeoutMS={500}
       >
            <div className="modalCard">
-         <img className="img-modalTwo" src={Img}  alt="Logo" />
+         <img className="img-modal2" src={Img}  alt="Logo" />
         <h1 className="title-modal">Hulk</h1>
         <h2 className="h2-modal">Aparições:</h2>
         <p className="p-modal">Vingadores - Era de Ultron</p>

@@ -13,6 +13,16 @@ section
     margin-right: -50%;
 }
 
+.logo-password
+{
+    width: 68em;
+    margin: 0;
+    position: absolute;
+    top: -393px;
+    left: 360px;
+    margin-right: -50%;
+}
+
 .is-size-1
 {
 
@@ -81,6 +91,12 @@ section
     position: relative;
     left: -28%;
     top: -758px;
+}
+
+.container-password {
+    position: relative;
+    left: -29%;
+    top: -619px;
 }
 .form
 {
@@ -156,24 +172,15 @@ background: #16161600;
 }
 .container-slide
 {
-    background-color: #80121a;
+    background-color: #0d1626ba;
     width: 100%;
-    border-style: hidden;
-    border-radius: 0px 0px 20px 20px;
+    border-style: groove;
+    border-radius: 20px 20px 20px 20px;
     position: relative;
     z-index: 2;
+    border-color: red;
 }
-.container-movie
-{
 
-    background-color: #323232a1;
-    width: 100%;
-    border: 8px;
-    border-style: groove;
-    border-radius: 24px;
-    position: relative;
-    z-index: 2; 
-}
 .title-h1
 {
     color: #fff;
@@ -184,6 +191,16 @@ background: #16161600;
     text-align: center;
     transform: translate(10px, 204px);
     z-index: 0;
+}
+.hellow
+{
+    z-index: 2;
+    position: relative;
+    left: 80%;
+    top: -253px;
+    font-family: -webkit-body;
+    color: #fff;
+    font-size: 22px; 
 }
 .title-dashboard
 {

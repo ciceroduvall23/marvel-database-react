@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "./styles.css";
 
 import Modal from "react-modal";
-import Img from '../img/Thanos2.jpg'
-import Close from'../img/close.svg'
+import Img from '../../img/Thanos2.jpg'
+import Close from'../../img/close.svg'
 
 Modal.setAppElement("#root");
 

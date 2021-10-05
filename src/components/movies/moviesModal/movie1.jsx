@@ -28,8 +28,9 @@ export default function App() {
       >
            <div className="modalCard">
         <img className="img-modalTwo" src={Img}  alt="Logo" />
-        <h1 className="title-modal">Hulk</h1>
-        <h2 className="h2-modal">Aparições:</h2>
+        <h1 className="title-modal">Homem de ferro</h1>
+        <h2 className="h2-modal">Homem de Ferro é um personagem fictício dos quadrinhos publicados pela Marvel Comics.
+         Sua identidade verdadeira é a do empresário e bilionário, Tony Stark, que usa armaduras de alta tecnologia no combate ao crime</h2>
         <p className="p-modal">Vingadores - Era de Ultron</p>
         <p className="p-modal">Thor - Ragnarok</p>
         <p className="p-modal">Vingadores - Era de Ultron</p>

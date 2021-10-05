@@ -51,7 +51,7 @@ export default class Responsive extends Component {
       ]
     };
     return (
-      <div className="container-movie">
+      <div className="container-slide">
        
         <Slider {...settings}>
         <div >

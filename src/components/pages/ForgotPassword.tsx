@@ -2,6 +2,7 @@ import React, { FC, useState, FormEvent, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 
+import Logo from '../img/logo-marvel.png';
 import Input from '../UI/Input';
 import Button from '../UI/Button';
 import Message from '../UI/Message';
@@ -40,7 +41,9 @@ const ForgotPassword: FC = () => {
 
   return(
     <section className="senha">
-      <div className="container-singIn">
+      <div className="container-password">
+      <img className="logo-password" src={Logo}  alt="Logo" />
+
         <h2 className="has-text-centered is-size-2 mb-3">Redefinir senha</h2>
         <form className="form" onSubmit={submitHandler}>
           {error && <Message type="danger" msg={error} />}

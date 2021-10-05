@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./styles.css";
 
-import Img from '../img/homem-aranha.jpg'
-import Close from'../img/close.svg'
+import Img from '../../img/homem-aranha.jpg'
+import Close from'../../img/close.svg'
 import Modal from "react-modal";
 
 Modal.setAppElement("#root");

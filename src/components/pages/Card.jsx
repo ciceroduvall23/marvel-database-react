@@ -4,10 +4,10 @@ import Slider from "react-slick";
 import './style.css'
 
 /* caracteristicas dos personagens*/ 
-import CharacterOne from '../Character/character.One'
-import CharacterTwo from '../Character/character.Two'
-import CharacterThree from '../Character/character.Three'
-import CharacterFour from '../Character/character.Four'
+import CharacterOne from './Character/character.One'
+import CharacterTwo from './Character/character.Two'
+import CharacterThree from './Character/character.Three'
+import CharacterFour from './Character/character.Four'
 
 
 import CardOne from '../img/homem-aranha.jpg';
@@ -56,7 +56,7 @@ export default class Responsive extends Component {
 
     return (
       <div className="container-slide">
-       
+       dsdsds
         <Slider {...settings}>
           <div>
   <MDBCard    className="grid">
