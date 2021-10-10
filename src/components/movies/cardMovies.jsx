@@ -54,7 +54,7 @@ export default class Responsive extends Component {
     };
     return (
       <div className="container-slide">
-       
+       <h2>Filmes em alta </h2>
         <Slider {...settings}>
         <div >
   <MDBCard  className="Card-Movies" >
@@ -63,7 +63,7 @@ export default class Responsive extends Component {
         <MDBCardTitle>Homem de ferro</MDBCardTitle>
         <MDBCardText>
         Homem de Ferro é um personagem fictício dos quadrinhos publicados pela Marvel Comics.
-         Sua identidade verdadeira é a do empresário e bilionário, Tony Stark, que usa armaduras de alta tecnologia no combate ao crime.
+        Tony Stark usa armaduras de alta tecnologia no combate ao crime.
         </MDBCardText>
     
         <div>
@@ -126,9 +126,9 @@ export default class Responsive extends Component {
   <MDBCard  className="Card-Movies" >
     <img className="CardTwo" src={Img5}  alt="Logo"   />
       <MDBCardBody className="Card-body">
-        <MDBCardTitle>Card title</MDBCardTitle>
+        <MDBCardTitle>Capitã Marvel</MDBCardTitle>
         <MDBCardText>
-          Some quick example text to build on the card title and make up the bulk of the card's content.
+        Capitã Marvel, parte do exército de elite dos Kree, uma raça alienígena, encontra-se no meio de uma batalha entre seu povo e os Skrulls.
         </MDBCardText>
     
         <div>

@@ -3,6 +3,24 @@ section
  
    width: 100%;
 }
+
+.container-slide
+{
+    background-color: #1e1e1e;
+    width: 100%;
+    border-style: groove;
+    border-radius: 20px 20px 20px 20px;
+    position: relative;
+    z-index: 2;
+    border-color: red;
+}
+
+.card {
+    position: relative;
+    border-radius: 7.5rem !important;
+    left: 14% !important;
+   
+}
 .logo-Home
 {
     width: 68em;
@@ -12,7 +30,16 @@ section
     left: 360px;
     margin-right: -50%;
 }
+h2
+{
 
+    font-size: 42px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 37px;
+    font-family: cursive;
+}
 .logo-password
 {
     width: 68em;
@@ -170,16 +197,7 @@ background: #16161600;
 
 
 }
-.container-slide
-{
-    background-color: #0d1626ba;
-    width: 100%;
-    border-style: groove;
-    border-radius: 20px 20px 20px 20px;
-    position: relative;
-    z-index: 2;
-    border-color: red;
-}
+
 
 .title-h1
 {

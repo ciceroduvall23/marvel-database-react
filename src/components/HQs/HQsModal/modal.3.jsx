@@ -28,17 +28,10 @@ export default function App() {
       >
            <div className="modalCard">
          <img className="img-modal3" src={Img}  alt="Logo" />
-        <h1 className="title-modal">Hulk</h1>
-        <h2 className="h2-modal">Aparições:</h2>
-        <p className="p-modal">Vingadores - Era de Ultron</p>
-        <p className="p-modal">Thor - Ragnarok</p>
-        <p className="p-modal">Vingadores - Era de Ultron</p>
-        <p className="p-modal">Vingadores - Ultimato</p>
-        
+        <h1 className="title-modal">Wolverine</h1>
+        <p className="p-QHs"> Wolverine é um personagem fictício que aparece em quadrinhos americanos publicados pela Marvel Comics.</p>
        <br></br>
-       
          <h2 className="evaluation-modal">Avaliações dos fãs</h2>
-  
         <button className="close-modal" onClick={toggleModal}> 
         <img className="img-close" src={Close}  alt="Logo" />
          </button>

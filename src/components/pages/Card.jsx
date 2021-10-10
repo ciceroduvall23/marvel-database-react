@@ -22,22 +22,22 @@ export default class Responsive extends Component {
     var settings = {
       dots: true,
       infinite: false,
-      speed: 700,
+      speed: 500,
       slidesToShow: 3,
-      slidesToScroll: 3,
-      initialSlide: 2,
+      slidesToScroll: 4,
+      initialSlide: 0,
       responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 1510,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 3,
             infinite: true,
             dots: true
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 1000,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
@@ -56,10 +56,10 @@ export default class Responsive extends Component {
 
     return (
       <div className="container-slide">
-       dsdsds
+       <h2>Personagens de Os Vingadores</h2>
         <Slider {...settings}>
           <div>
-  <MDBCard    className="grid">
+  <MDBCard   className="grid">
     <img className="CardTwo" src={CardOne}  alt="Logo"   />
       <MDBCardBody className="Card-body">
         <MDBCardTitle>Card title</MDBCardTitle>

@@ -29,12 +29,9 @@ export default function App() {
       >
            <div className="modalCard">
          <img className="img-modalTwo" src={Img}  alt="Logo" />
-        <h1 className="title-modal">Hulk</h1>
-        <h2 className="h2-modal">Aparições:</h2>
-        <p className="p-modal">Vingadores - Era de Ultron</p>
-        <p className="p-modal">Thor - Ragnarok</p>
-        <p className="p-modal">Vingadores - Era de Ultron</p>
-        <p className="p-modal">Vingadores - Ultimato</p>
+        <h1 className="title-modal">Capitã Marvel</h1>
+        <p className="p-movie">Capitã Marvel, parte do exército de elite dos Kree, uma raça alienígena, encontra-se no meio de uma batalha entre seu povo e os Skrulls.
+</p>
         
        <br></br>
        

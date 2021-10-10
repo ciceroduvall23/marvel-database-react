@@ -28,17 +28,11 @@ export default function App() {
       >
            <div className="modalCard">
          <img className="img-modal2" src={Img}  alt="Logo" />
-        <h1 className="title-modal">Hulk</h1>
-        <h2 className="h2-modal">Aparições:</h2>
-        <p className="p-modal">Vingadores - Era de Ultron</p>
-        <p className="p-modal">Thor - Ragnarok</p>
-        <p className="p-modal">Vingadores - Era de Ultron</p>
-        <p className="p-modal">Vingadores - Ultimato</p>
-        
+        <h1 className="title-modal">Surfista prateado</h1>
+        <p className="p-QHs">Surfista Prateado é um super-herói das histórias em quadrinhos norte-americanas da Marvel Comics.
+</p> 
        <br></br>
-       
          <h2 className="evaluation-modal">Avaliações dos fãs</h2>
-  
         <button className="close-modal" onClick={toggleModal}> 
         <img className="img-close" src={Close}  alt="Logo" />
          </button>

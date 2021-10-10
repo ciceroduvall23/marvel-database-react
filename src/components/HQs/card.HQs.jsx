@@ -52,15 +52,16 @@ export default class Responsive extends Component {
     };
     return (
       <div className="container-slide">
-       
+       <h2>Histórias em quadrinhos</h2>
         <Slider {...settings}>
         <div >
   <MDBCard  className="Card-Movies" >
     <img className="CardTwo" src={Img1}  alt="Logo"   />
       <MDBCardBody className="Card-body">
-        <MDBCardTitle>Card title</MDBCardTitle>
+        <MDBCardTitle>Thor vikings</MDBCardTitle>
         <MDBCardText>
-          Some quick example text to build on the card title and make up the bulk of the card's content.
+        Thor enfrentando vikings sedentos de sangue e amaldiçoados pela imortalidade...
+         Só mesmo Garth Ennis para conceber um enredo tão originalmente bizarro, sem cair no ridículo.
         </MDBCardText>
     
         <div>
@@ -74,10 +75,10 @@ export default class Responsive extends Component {
   <MDBCard  className="Card-Movies" >
     <img className="CardTwo" src={Img2}  alt="Logo"   />
       <MDBCardBody className="Card-body">
-        <MDBCardTitle>Card title</MDBCardTitle>
+        <MDBCardTitle>Surfista prateado</MDBCardTitle>
         <MDBCardText>
-          Some quick example text to build on the card title and make up the bulk of the card's content.
-        </MDBCardText>
+        Surfista Prateado é um super-herói das histórias em quadrinhos norte-americanas da Marvel Comics.
+           </MDBCardText>
     
         <div>
         <Two />
@@ -90,9 +91,9 @@ export default class Responsive extends Component {
   <MDBCard  className="Card-Movies" >
     <img className="CardTwo" src={Img3}  alt="Logo"   />
       <MDBCardBody className="Card-body">
-        <MDBCardTitle>Card title</MDBCardTitle>
+        <MDBCardTitle>Wolverine</MDBCardTitle>
         <MDBCardText>
-          Some quick example text to build on the card title and make up the bulk of the card's content.
+        Wolverine é um personagem fictício que aparece em quadrinhos americanos publicados pela Marvel Comics.
         </MDBCardText>
     
         <div>

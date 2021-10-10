@@ -28,12 +28,9 @@ export default function App() {
       >
            <div className="modalCard">
         <img className="img-modalHQs" src={Img}  alt="Logo" />
-        <h1 className="title-modal">Hulk</h1>
-        <h2 className="h2-modal">Aparições:</h2>
-        <p className="p-modal">Vingadores - Era de Ultron</p>
-        <p className="p-modal">Thor - Ragnarok</p>
-        <p className="p-modal">Vingadores - Era de Ultron</p>
-        <p className="p-modal">Vingadores - Ultimato</p>
+        <h1 className="title-modal">Thor vikings</h1>
+        <p className="p-QHs">Thor enfrentando vikings sedentos de sangue e amaldiçoados pela imortalidade...
+         Só mesmo Garth Ennis para conceber um enredo tão originalmente bizarro, sem cair no ridículo.</p>
         
        <br></br>
        
