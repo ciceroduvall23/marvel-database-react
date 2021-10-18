@@ -16,6 +16,7 @@ function Header(){
     <nav className="navbar-is-spaced-has-shadow">
          <div className="gradient"></div>
     </nav>
+   
   );
   }
 

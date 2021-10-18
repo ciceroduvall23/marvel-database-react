@@ -3,6 +3,10 @@ section
  
    width: 100%;
 }
+.login{
+
+    height: 1em;
+}
 
 .container-slide
 {
@@ -23,12 +27,10 @@ section
 }
 .logo-Home
 {
-    width: 68em;
     margin: 0;
-    position: absolute;
-    top: -393px;
-    left: 360px;
-    margin-right: -50%;
+    width: 57em;
+    position: relative;
+    top: 136px;
 }
 h2
 {
@@ -42,12 +44,10 @@ h2
 }
 .logo-password
 {
-    width: 68em;
     margin: 0;
-    position: absolute;
-    top: -393px;
-    left: 360px;
-    margin-right: -50%;
+    width: 57em;
+    position: relative;
+    top: 136px;
 }
 
 .none
@@ -80,6 +80,7 @@ h2
 .senha
 {
     z-index: 5;
+    height: 2em;
 
 }
 .section-success
@@ -90,29 +91,30 @@ h2
 }
 .container-singIn
 {
-    position: relative;
-    left: -29%;
-    top: -758px;
+    position: absolute;
+    left: 0%;
+    top: -207px;
 }
 .container-singUp
 {
-    position: relative;
-    left: -28%;
-    top: -758px;
+    position: absolute;
+    left: 0%;
+    top: -207px;
 }
 
 .container-password {
-    position: relative;
-    left: -29%;
-    top: -619px;
+    position: absolute;
+    left: 0%;
+    top: -207px;
+
 }
 .form
 {
     width: 240px;
 }
-.has-text-centered
-{
+.has-text-centered {
     color: #fd0200;
+    top: -37px;
 }
 .text-link
 {
@@ -195,8 +197,9 @@ background: #16161600;
 {
     z-index: 2;
     position: relative;
-    left: 80%;
-    top: -253px;
+    left: 85%;
+    text-decoration: underline;
+    top: -153px;
     font-family: -webkit-body;
     color: #fff;
     font-size: 22px; 
@@ -217,12 +220,11 @@ background: #16161600;
 .button-dashboard
 {
     border-radius: 10px;
-    position: relative;
-    top: 240px;
+    position: absolute;
+    top: 459px;
     height: 46px;
     width: 193px;
-    margin: 40px 15px 15px;
-    left: 45%;
+    left: 44%;
     text-align: center;
     padding-left: 0;
     min-width: 0;
@@ -239,6 +241,7 @@ background: #16161600;
     cursor: pointer;
     background-color: #27282a;
     color: #ffff;
+
 }
 
 .Card-body
@@ -264,11 +267,7 @@ background: #16161600;
 {
     margin-top: -981px;
 }
-.navbar-container
-{
-    background-color: black;
 
-}
 
 .fade-enter {
     opacity: 0;
@@ -288,7 +287,7 @@ background: #16161600;
   {
 
    background-color: black;
-   width: 100%;
+   width: 103%;
    height: 4em;
   }
   .button-navbar
@@ -299,7 +298,8 @@ background: #16161600;
     border: #00ffff00;
     z-index: 4;
     position: relative;
-    left: 36%;
+    left: 33%;
+    top: 16px;
     font-size: 20px;
     font-family: -webkit-body;
     padding: 0 41px;

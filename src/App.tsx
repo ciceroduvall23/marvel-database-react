@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { BrowserRouter, Switch } from 'react-router-dom';
 import './App.css';
 
+
 import Header from './components/sections/Header';
 import SignUp from './components/pages/SignUp';
 import SignIn from './components/pages/SignIn';

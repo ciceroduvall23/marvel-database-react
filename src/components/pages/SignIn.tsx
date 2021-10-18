@@ -38,7 +38,7 @@ const SignIn: FC = () => {
   }
 
   return(
-    <section className="section">
+    <section className="login">
       <div className="container-singIn">
       <img className="logo-Home" src={Logo}  alt="Logo" />
         <h2 className="has-text-centered is-size-2 mb-3">Bem vindo(a) </h2>

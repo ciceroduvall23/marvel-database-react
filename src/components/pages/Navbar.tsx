@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { useHistory } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { signout } from '../../store/actions/authActions';
-import Navbar from './navbar/menuNavbar'
+/*import Navbar from './navbar/menuNavbar'*/
 
 import Card from './Card'
 import CardMovies from '../movies/cardMovies'
@@ -31,7 +31,7 @@ const AppRouter: FC = () => {
       <div className="navbar-container">
 
         <div>
-          <Navbar />
+      
         </div>
       <img className="logo-header" src={Logo}  alt="Logo" />
       <Link to="/" className="button-navbar">Inicio</Link>

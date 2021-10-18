@@ -54,7 +54,7 @@ const ForgotPassword: FC = () => {
             value={email}
             onChange={(e) => setEmail(e.currentTarget.value)}
             placeholder="Email"
-            label="Por favor digite o endereço de e-mail.Enviaremos um link para definir uma nova senha."
+            label="Por favor digite o endereço de e-mail.Enviaremos um link para redefinir uma nova senha."
           />
           <Button text={loading ? "Loading..." : "Enviar e-mail"} className="re"   disabled={loading} />
           <p>Lembra a senha ? faça <Link  className="text-link" to="/signin">login</Link></p>

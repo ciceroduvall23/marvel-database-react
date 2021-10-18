@@ -1,20 +1,16 @@
-.logo-header
-{
-
+.logo-header {
     border-radius: 24px;
-    width: 38em;
+    width: 30em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0;
     position: absolute;
-    top: -130px;
-    left: -122px;
+    top: -102px;
+    left: -155px;
     margin-right: -50%;
     z-index: 4;
-
-
 }
 .navbar-items
 {
