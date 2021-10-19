@@ -57,7 +57,7 @@ export default class Responsive extends Component {
        <h2>Filmes em alta </h2>
         <Slider {...settings}>
         <div >
-  <MDBCard  className="Card-Movies" >
+  <MDBCard  className="grid" >
     <img className="CardTwo" src={Img1}  alt="Logo"   />
       <MDBCardBody className="Card-body">
         <MDBCardTitle>Homem de ferro</MDBCardTitle>

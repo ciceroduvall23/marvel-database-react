@@ -113,6 +113,57 @@
 }
 
 @media only screen and (max-width: 500px) and (min-width: 300px) {
+
+    .container-slide {
+        background-color: #1e1e1e;
+        width: 100%;
+        border-style: groove;
+        border-radius: 20px 20px 20px 20px;
+        position: relative;
+        top: 120px;
+        z-index: 2;
+        border-color: red;
+    }
+    .navbar-container {
+        background-color: black;
+        width: 107%;
+        height: 7em;
+    }
+    .hellow {
+        z-index: 2;
+        position: absolute;
+        left: 41%;
+        top: 14px;
+        font-family: -webkit-body;
+        color: #fff;
+        font-size: 22px;
+    }
+
+    .button-logout {
+        z-index: 4;
+        position: absolute;
+        left: 84%;
+        font-family: -webkit-body;
+        font-size: 24px;
+        background-color: var(--feedback-secondary-color);
+        border: #6495ed00;
+        color: #ffff;
+        top: 8px;
+    }
+
+    .button-navbar {
+        background-color: #00000000;
+        color: white;
+        border: #00ffff00;
+        z-index: 4;
+        position: relative;
+        left: 12%;
+        top: 58px;
+        font-size: 20px;
+        font-family: -webkit-body;
+        padding: 0 11px;
+    }
+
     .container-singIn
 {
     position: absolute;
@@ -154,11 +205,33 @@
     top: 549px;
     height: 46px;
     width: 193px;
-    left: 35%;
+    left: 30%;
     cursor: pointer;
     background-color: #27282a;
     color: #ffff;
 
+}
+
+.container-slide {
+    background-color: #1e1e1e;
+    width: 90%;
+    border-style: groove;
+    border-radius: 20px 20px 20px 20px;
+    position: relative;
+    z-index: 2;
+    border-color: red;
+    left: 2%;
+}
+
+.grid {
+    width: 18em;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-right: -50%;
+    z-index: 4;
+    margin-top: 96px;
+    background: #16161600;
 }
 
 

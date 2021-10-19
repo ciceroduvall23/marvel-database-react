@@ -48,4 +48,37 @@
  
 }
 
+@media only screen and (max-width: 500px) and (min-width: 300px) {
+
+  .logo-loader
+  {
+    width: 30%;
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    right: 83%;
+    margin-right: -50%;
+    z-index: 4;
+   
+  }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 500px) 
+{
+  .logo-loader
+  {
+    width: 30%;
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    right: 83%;
+    margin-right: -50%;
+    z-index: 4;
+   
+  }
+
+}
+
+
+
   
