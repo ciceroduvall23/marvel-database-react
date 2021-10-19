@@ -18,33 +18,42 @@ import MovieFive from './moviesModal/movie5'
 
 export default class Responsive extends Component {
   render() {
-    var settings = {
+ 
+    const settings = {
       dots: true,
-      infinite: false,
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      speed: 2000,
+      autoplaySpeed: 2000,
+      cssEase: "linear",
+      dots: true,
+      infinite: true,
       speed: 500,
       slidesToShow: 3,
-      slidesToScroll: 4,
+      slidesToScroll: 2,
       initialSlide: 0,
       responsive: [
         {
-          breakpoint: 1510,
+          breakpoint: 1200,
           settings: {
             slidesToShow: 2,
-            slidesToScroll: 3,
+            slidesToScroll: 2,
             infinite: true,
             dots: true
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 960,
           settings: {
             slidesToShow: 1,
-            slidesToScroll: 2,
-            initialSlide: 2
+            slidesToScroll: 1,
+            initialSlide: 1
           }
         },
         {
-          breakpoint: 480,
+          breakpoint: 580,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1
@@ -52,6 +61,7 @@ export default class Responsive extends Component {
         }
       ]
     };
+
     return (
       <div className="container-slide">
        <h2>Filmes em alta </h2>
@@ -74,7 +84,7 @@ export default class Responsive extends Component {
           </div>
 
           <div>
-  <MDBCard  className="Card-Movies" >
+  <MDBCard  className="grid" >
     <img className="CardTwo" src={Img2}  alt="Logo"   />
       <MDBCardBody className="Card-body">
         <MDBCardTitle>Homem de ferro 2 </MDBCardTitle>
@@ -91,7 +101,7 @@ export default class Responsive extends Component {
           </div>
 
           <div>
-  <MDBCard  className="Card-Movies" >
+  <MDBCard  className="grid" >
     <img className="CardTwo" src={Img3}  alt="Logo"   />
       <MDBCardBody className="Card-body">
         <MDBCardTitle>Thor</MDBCardTitle>
@@ -107,7 +117,7 @@ export default class Responsive extends Component {
           </div>
 
           <div>
-  <MDBCard  className="Card-Movies" >
+  <MDBCard  className="grid" >
     <img className="CardTwo" src={Img4}  alt="Logo"   />
       <MDBCardBody className="Card-body">
         <MDBCardTitle>Capitão America</MDBCardTitle>
@@ -123,7 +133,7 @@ export default class Responsive extends Component {
           </div>
 
           <div>
-  <MDBCard  className="Card-Movies" >
+  <MDBCard  className="grid" >
     <img className="CardTwo" src={Img5}  alt="Logo"   />
       <MDBCardBody className="Card-body">
         <MDBCardTitle>Capitã Marvel</MDBCardTitle>

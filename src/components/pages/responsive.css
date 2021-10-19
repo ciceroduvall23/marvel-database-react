@@ -98,7 +98,7 @@
     margin: 0;
     width: 57em;
     position: relative;
-    top: 136px;
+    top: 36px;
 }
 
 .logo-password
@@ -106,7 +106,7 @@
     margin: 0;
     width: 57em;
     position: relative;
-    top: 136px;
+    top: 36px;
 }
 
 
@@ -114,16 +114,7 @@
 
 @media only screen and (max-width: 500px) and (min-width: 300px) {
 
-    .container-slide {
-        background-color: #1e1e1e;
-        width: 100%;
-        border-style: groove;
-        border-radius: 20px 20px 20px 20px;
-        position: relative;
-        top: 120px;
-        z-index: 2;
-        border-color: red;
-    }
+ 
     .navbar-container {
         background-color: black;
         width: 107%;
@@ -212,16 +203,6 @@
 
 }
 
-.container-slide {
-    background-color: #1e1e1e;
-    width: 90%;
-    border-style: groove;
-    border-radius: 20px 20px 20px 20px;
-    position: relative;
-    z-index: 2;
-    border-color: red;
-    left: 2%;
-}
 
 .grid {
     width: 18em;
@@ -236,3 +217,4 @@
 
 
 }
+

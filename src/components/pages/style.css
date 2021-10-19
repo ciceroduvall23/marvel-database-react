@@ -17,12 +17,14 @@ section
     position: relative;
     z-index: 2;
     border-color: red;
+    top: 86px;
+    height: 47em;
 }
 
 .card {
     position: relative;
     border-radius: 7.5rem !important;
-    left: 14% !important;
+    left: 18% !important;
    
 }
 .logo-Home
@@ -41,6 +43,7 @@ h2
     position: relative;
     top: 37px;
     font-family: cursive;
+    left: -1%;
 }
 .logo-password
 {
@@ -177,6 +180,9 @@ z-index: 4;
 margin-top: 130px;
 border-radius: 40px 40px 0px 0px;
 background: #16161600;
+position: relative;
+border-radius: 7.5rem !important;
+left: 18% !important;
 
 
 }

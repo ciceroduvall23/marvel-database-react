@@ -1,7 +1,7 @@
 .container-slide
 {
     background-color: #1e1e1e;
-    width: 100%;
+    width: 97%;
     border-style: groove;
     border-radius: 20px 20px 20px 20px;
     position: relative;
@@ -17,6 +17,11 @@ h2
     position: relative;
     top: 37px;
     font-family: cursive;
+}
+
+.CardTwo{
+  width: 100%;
+
 }
 .carouselTwo
 {
@@ -86,16 +91,93 @@ border-radius: 40px 40px 0px 0px;
     top: 14px;
     background: rgba(0, 0, 0, 0)
 }
-
+@media only screen and (max-width: 1140px) and (min-width: 500px)
+{
+.container-slide {
+    width: 93%;
+ 
+}
+}
 @media only screen and (max-width: 700px) and (min-width: 500px) {
+    .container-slide
+{
+    background-color: #1e1e1e;
+    width: 93%;
+  
+}
+
 
 
 }
 
 @media only screen and (max-width: 500px) and (min-width: 300px) {
-
+    .container-slide
+    {
+        background-color: #1e1e1e;
+        width: 93%;
+    
+    }
+    
    
 }
 
+@media only screen and (max-width: 1200px) and (min-width: 960px)
+{
+
+    .grid
+    {
+    width:22em;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    left: 23%;
+    margin-right: -50%;
+    z-index: 4;
+    margin-top: 130px;
+    border-radius: 40px 40px 0px 0px;
+    background: #16161600;
+    position: relative;
+    border-radius: 7.5rem !important;
+    left: 18% !important;
+    
+    
+    }
+
+    
+    .grid
+    {
+  
+    left: 18% !important;
+    
+    
+    }
+
+}
+
+@media only screen and (max-width: 960px) and (min-width: 670px)
+{
+
+    .grid
+    {
+  
+    left: 28% !important;
+    
+    
+    }
+
+}
+
+@media only screen and (max-width: 600px) and (min-width: 300px)
+{
+
+    .grid
+    {
+  
+    left: 15% !important;
+    
+    
+    }
+
+}
 
  
