@@ -138,4 +138,29 @@
   top: 27px;
   left: 271px;
 }
- 
+ /* */ 
+ @media only screen and (max-width: 500px) and (min-width: 300px)
+{
+ .p-movie {
+  margin: 0;
+  position: relative;
+  color: white;
+  top: 23px;
+  left: 86px;
+  font-family: cursive;
+  font-size: 15px;
+  line-height: 27px;
+  text-align: center;
+  width: 41%;
+}
+
+.evaluation-modal {
+  margin: 0;
+  position: relative;
+  color: rgb(255 255 255);
+  top: -59px;
+  left: -88px;
+  font-family: cursive;
+  font-size: 20px;
+}
+}

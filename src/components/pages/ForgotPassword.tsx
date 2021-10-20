@@ -57,7 +57,7 @@ const ForgotPassword: FC = () => {
             label="Por favor digite o endereço de e-mail.Enviaremos um link para redefinir uma nova senha."
           />
           <Button text={loading ? "Loading..." : "Enviar e-mail"} className="re"   disabled={loading} />
-          <p>Lembra a senha ? faça <Link  className="text-link" to="/signin">login</Link></p>
+          <p>Lembra a senha ? faça <Link  className="text-link" to="/signin">Login</Link></p>
         </form>
       </div>
     </section>

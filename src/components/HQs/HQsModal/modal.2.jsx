@@ -32,7 +32,6 @@ export default function App() {
         <p className="p-QHs">Surfista Prateado é um super-herói das histórias em quadrinhos norte-americanas da Marvel Comics.
 </p> 
        <br></br>
-         <h2 className="evaluation-modal">Avaliações dos fãs</h2>
         <button className="close-modal" onClick={toggleModal}> 
         <img className="img-close" src={Close}  alt="Logo" />
          </button>

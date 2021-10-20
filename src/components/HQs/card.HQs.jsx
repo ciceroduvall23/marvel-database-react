@@ -71,7 +71,7 @@ export default class Responsive extends Component {
         <MDBCardTitle>Thor vikings</MDBCardTitle>
         <MDBCardText>
         Thor enfrentando vikings sedentos de sangue e amaldiçoados pela imortalidade...
-         Só mesmo Garth Ennis para conceber um enredo tão originalmente bizarro, sem cair no ridículo.
+         Só mesmo Garth Ennis para conceber um enredo tão originalmente bizarro.
         </MDBCardText>
     
         <div>

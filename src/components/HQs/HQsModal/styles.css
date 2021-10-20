@@ -149,4 +149,120 @@
   top: 27px;
   left: 271px;
 }
+ /* responsive */
+  
+ @media only screen and (max-width: 770px) and (min-width: 500px)
+ {
  
+   .modalCard
+   {
+     width: 255%;
+     height: 58%;
+     border-radius: 24px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: 0;
+     position: relative;
+     top: 60%;
+     left: 135%;
+     margin-right: -50%;
+     transform: translate(-50%, -63%);
+     background-color: #fd0200;
+     z-index: 3;
+   }
+   .mymodal {
+     width: 240px;
+     height: 680px;
+     z-index: 3;
+    
+   }
+ }
+
+ @media only screen and (max-width: 500px) and (min-width: 300px)
+ {
+ 
+   .modalCard
+   {
+    width: 148%;
+    height: 58%;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: relative;
+    top: 60%;
+    left: 90%;
+    margin-right: -50%;
+    transform: translate(-50%, -63%);
+    background-color: #fd0200;
+    z-index: 3;
+   }
+
+   .title-modal {
+    margin: 0;
+    position: relative;
+    color: white;
+    top: 4px;
+    left: 88px;
+    font-family: cursive;
+    font-size: 21px;
+}
+.h2-modal {
+  margin: 0;
+  position: relative;
+  color: white;
+  top: 17px;
+  left: 89px;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.p-modal {
+  margin: 0;
+  position: relative;
+  color: white;
+  top: 37px;
+  left: 83px;
+  font-family: cursive;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  width: 33%;
+}
+
+.evaluation-modal {
+  margin: 0;
+  position: relative;
+  color: rgb(255 255 255);
+  top: -67px;
+  left: -92px;
+  font-family: cursive;
+  font-size: 20px;
+}
+ 
+   .close-modal {
+    margin: 0;
+    position: relative;
+    border: #faebd700;
+    top: -28px;
+    left: -126px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.p-QHs {
+  margin: 0;
+  position: relative;
+  color: white;
+  top: 18px;
+  left: 83px;
+  font-family: cursive;
+  font-size: 15px;
+  line-height: 27px;
+  text-align: center;
+  width: 49%;
+}
+ }

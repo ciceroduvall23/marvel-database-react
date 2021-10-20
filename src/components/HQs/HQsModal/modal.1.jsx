@@ -34,7 +34,7 @@ export default function App() {
         
        <br></br>
        
-         <h2 className="evaluation-modal">Avaliações dos fãs</h2>
+       
   
         <button className="close-modal" onClick={toggleModal}> 
         <img className="img-close" src={Close}  alt="Logo" />

@@ -215,6 +215,68 @@
     background: #16161600;
 }
 
-
+.button-card {
+    border: rgba(255, 255, 255, 0);
+    color: #ffffff;
+    position: relative;
+    left: 60PX;
+    font-size: 21px;
+    top: 14px;
+    background: rgba(0, 0, 0, 0);
 }
 
+
+}
+@media only screen and (max-width: 400px) and (min-width: 300px)
+{
+
+    .button-navbar {
+        background-color: #00000000;
+        color: white;
+        border: #00ffff00;
+        z-index: 4;
+        position: relative;
+        left: 3%;
+        top: 58px;
+        font-size: 20px;
+        font-family: -webkit-body;
+        padding: 0 11px;
+    }
+
+    .logo-header {
+        border-radius: 24px;
+        width: 30em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        position: absolute;
+        top: -78px;
+        left: -133px;
+        margin-right: -50%;
+        z-index: 4;
+    }
+
+    .button-dashboard {
+        position: absolute;
+        top: 608px;
+        height: 46px;
+        width: 193px;
+        left: 28%;
+        cursor: pointer;
+        background-color: #27282a;
+        color: #ffff;
+    }
+
+    .button-card {
+        border: rgba(255, 255, 255, 0);
+        color: #ffffff;
+        position: relative;
+        left: 60PX;
+        font-size: 21px;
+        top: 14px;
+        background: rgba(0, 0, 0, 0);
+    }
+
+}

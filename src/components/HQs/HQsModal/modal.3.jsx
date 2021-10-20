@@ -31,7 +31,6 @@ export default function App() {
         <h1 className="title-modal">Wolverine</h1>
         <p className="p-QHs"> Wolverine é um personagem fictício que aparece em quadrinhos americanos publicados pela Marvel Comics.</p>
        <br></br>
-         <h2 className="evaluation-modal">Avaliações dos fãs</h2>
         <button className="close-modal" onClick={toggleModal}> 
         <img className="img-close" src={Close}  alt="Logo" />
          </button>

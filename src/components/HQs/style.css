@@ -86,7 +86,7 @@ border-radius: 40px 40px 0px 0px;
     border: rgba(255, 255, 255, 0);
     color: #ffffff;
     position: relative;
-    left: 93px;
+    left: 82px;
     font-size: 21px;
     top: 14px;
     background: rgba(0, 0, 0, 0)
@@ -167,15 +167,51 @@ border-radius: 40px 40px 0px 0px;
 
 }
 
-@media only screen and (max-width: 600px) and (min-width: 300px)
+@media only screen and (max-width: 600px) and (min-width: 400px)
+{
+    .grid
+    {
+    left: 14% !important;
+
+    }
+
+    .button-card
+{
+    border: rgba(255, 255, 255, 0);
+    color: #ffffff;
+    position: relative;
+    left: 58px;
+    font-size: 21px;
+    top: -9px;
+    background: rgba(0, 0, 0, 0)
+}
+}
+
+@media only screen and (max-width: 400px) and (min-width: 300px)
 {
 
     .grid
     {
   
-    left: 15% !important;
+    left: 4% !important;
+    }
+
+    .container-slide
+    {
+        background-color: #1e1e1e;
+        width: 93%;
+        height: 44em;        
     
-    
+    }
+    .button-card
+    {
+        border: rgba(255, 255, 255, 0);
+        color: #ffffff;
+        position: relative;
+        left: 58px;
+        font-size: 21px;
+        top: 14px;
+        background: rgba(0, 0, 0, 0)
     }
 
 }

@@ -63,7 +63,7 @@ const SignIn: FC = () => {
             />
               <Link className="forgot-password" to="/forgotpassword">Esqueci a senha</Link>
           <Button text={loading ? "Loading..." : "Entrar"} className=" is-fullwidth mt-5" disabled={loading} />
-          <p>Ainda não tem o login? <Link  className="text-link" to="/Signup">Cadastre-se</Link></p>
+          <p>Ainda não tem conta ? <Link  className="text-link" to="/Signup">Cadastre-se</Link></p>
            
         </form>
       </div>

@@ -87,6 +87,64 @@ border-radius: 40px 40px 0px 0px;
       height: 16em;
 }
 
+@media only screen and (max-width: 1200px) and (min-width: 960px)
+{
+
+    .grid
+    {
+    width:22em;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    left: 23%;
+    margin-right: -50%;
+    z-index: 4;
+    margin-top: 130px;
+    border-radius: 40px 40px 0px 0px;
+    background: #16161600;
+    position: relative;
+    border-radius: 7.5rem !important;
+    left: 18% !important;
+    
+    
+    }
+
+    
+    .grid
+    {
+  
+    left: 18% !important;
+    
+    
+    }
+
+}
+
+@media only screen and (max-width: 960px) and (min-width: 670px)
+{
+
+    .grid
+    {
+  
+    left: 28% !important;
+    
+    
+    }
+
+}
+
+@media only screen and (max-width: 600px) and (min-width: 300px)
+{
+
+    .grid
+    {
+  
+    left: 15% !important;
+    
+    
+    }
+
+}
 
 
 

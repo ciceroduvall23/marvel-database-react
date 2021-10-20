@@ -66,7 +66,7 @@ const SignUp: FC = () => {
             label="Password"
           />
           <Button text={loading ? "Loading..." : "Cadastrar"} className="button-sing" disabled={loading} />
-          <p>Já tem conta ? faça <Link  className="text-link" to="/signin">login</Link></p>
+          <p>Já tem conta ? faça <Link  className="text-link" to="/signin">Login</Link></p>
 
         </form>
       </div>
